@@ -1,0 +1,117 @@
+@import'https://fonts.googleapis.com/css?family=Oswald:400,700';
+@import'https://fonts.googleapis.com/css?family=mondserrat:400,700';
+@import'https://fonts.googleapis.com/css?family=raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
+
+
+
+
+body{
+	margin:0; 
+background-image:url('images/homehorse.jpeg');
+background-size:cover;
+}
+
+header {
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 60px; 
+}
+
+header h1 {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	float: left;
+	margin: top:0px;
+	margin: right:10px; 
+}
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+#nav {
+    font-family: 'mondserrat', sans-serif;
+}
+
+.homered {
+	background-color: red;
+	padding: 39px 10px 39px 10px;
+}
+
+.divider {
+	background-color: red;
+	height: 9px;	
+}
+
+.homeblack:hover {
+	background-color:blue;
+	padding: 39px 10px 30px 10px;
+} 
+
+.fullimage1 {
+	background-image: url(images/sunshine.jpg);
+	width:100%;
+    height: 88%;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+.homesub {
+           font-family: 'raleway', sans-serif;
+           margin: 0;
+           padding: 9% 5% 0% 55%;
+           font-size: 25px;
+           color: gray;
+}
+.homedes {
+	       font-family: 'Oswald', sans-serif;
+	       margin: 0.5% 0% 0% 55%;
+	       font size: 70px;
+	       color: white;
+	       background-color: rgba(0,0,0,0.4);
+	       display: inline-block; 
+
+}
+.homepho {
+	      font-family: 'Oswald', sans-serif;
+	      margin: 0% 0% 0% 55%;
+          font-size: 49px;
+          color: black;
+          display: inline-block;
+
+}
+
+.buttonhome {
+	      margin: 0% 0% 0% 55%;
+	      background-color: red;
+	      color: black;
+	      border: none;
+	      height: 50px;;
+	      font-size: 1.7em;
+	      padding: 8px 5px;
+	      cursor: pointer;
+		  outline: none;
+		  border-radius: 7em;
+	      font-family: 'Raleway' sans-serif;
+	      font-weight: 800; 
+}
